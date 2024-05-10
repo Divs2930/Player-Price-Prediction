@@ -53,11 +53,11 @@ new_signing: Whether a new signing for 2017/18 (till 20th July)
 
 Regression algorithms we will be using:
 
-Linear Regression
-Lasso Regression
-Ridge Regression
-Nearest Neighbour Regression
-Support Vector Regression
-Tree Regression
-Random Forest Regression
-Gradient Boosted Regression.
+-Linear Regression
+-Lasso Regression
+-Ridge Regression
+-Nearest Neighbour Regression
+-Support Vector Regression
+-Tree Regression
+-Random Forest Regression
+-Gradient Boosted Regression.
