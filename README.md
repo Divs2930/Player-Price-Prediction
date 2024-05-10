@@ -1,63 +1,64 @@
-## Predicting the price of a Football player using ML
+# Predicting the price of a Football player using ML
 
-# Problem Statement
+## Problem Statement
 In the English Premier League, May - July represents a lull period due to the lack of club football. What makes up for it, is the intense transfer speculation that surrounds all major player transfers today. An important part of negotiations is predicting the fair market price for a player. Our task is to predict this Market Value of a player using the data provided below
 
 The attached data set consists of the following attributes:
 
-name: Name of the player
+* **name:** Name of the player
 
-club: Club of the player
+* **club:** Club of the player
 
-age : Age of the player
+* **age** : Age of the player
 
-position : The usual position on the pitch
+* **position** : The usual position on the pitch
 
-position_cat :
+* **position_cat** :
 
-1 for attackers
+  - 1 for attackers
 
-2 for midfielders
+  - 2 for midfielders
 
-3 for defenders
+  - 3 for defenders
 
-4 for goalkeepers
+  - 4 for goalkeepers
 
-market_value : As on transfermrkt.com on July 20th, 2017
+* **market_value :** As on transfermrkt.com on July 20th, 2017
 
-page_views : Average daily Wikipedia page views from September 1, 2016 to May 1, 2017
+* **page_views :** Average daily Wikipedia page views from September 1, 2016 to May 1, 2017
 
-fpl_value : Value in Fantasy Premier League as on July 20th, 2017
+* **fpl_value :** Value in Fantasy Premier League as on July 20th, 2017
 
-fpl_sel : % of FPL players who have selected that player in their team
+* **fpl_sel :** % of FPL players who have selected that player in their team
 
-fpl_points : FPL points accumulated over the previous season
+* **fpl_points :** FPL points accumulated over the previous season
 
-region:
+* **region:**
 
-1 for England
-2 for EU
-3 for Americas
-4 for Rest of World
-nationality
+  - 1 for England
+  - 2 for EU
+  - 3 for Americas
+  - 4 for Rest of World
 
-new_foreign : Whether a new signing from a different league, for 2017/18 (till 20th July)
+* **nationality**
 
-age_cat
+* **new_foreign :** Whether a new signing from a different league, for 2017/18 (till 20th July)
 
-club_id
+* **age_cat**
 
-big_club: Whether one of the Top 6 clubs
+* **club_id**
 
-new_signing: Whether a new signing for 2017/18 (till 20th July)
+* **big_club:** Whether one of the Top 6 clubs
 
-Regression algorithms we will be using:
+* **new_signing:** Whether a new signing for 2017/18 (till 20th July)
 
--Linear Regression
--Lasso Regression
--Ridge Regression
--Nearest Neighbour Regression
--Support Vector Regression
--Tree Regression
--Random Forest Regression
--Gradient Boosted Regression.
+### Regression algorithms we will be using:
+
+  - Linear Regression
+  - Lasso Regression
+  - Ridge Regression
+  - Nearest Neighbour Regression
+  - Support Vector Regression
+  - Tree Regression
+  - Random Forest Regression
+  - Gradient Boosted Regression
